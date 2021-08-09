@@ -1,0 +1,33 @@
+<svg width="0" height="0" class="hidden">
+
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 8" id="arrow">
+    <path d="M7 7.713l6.01-6.01L11.597.288 7 4.888 2.404.288.99 1.702 7 7.713z"></path>
+  </symbol>
+
+
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" id="comment">
+    <path d="M2.124 9.114l.003.012a5.909 5.909 0 003.336 4.16L9 14.894V13h2a5 5 0 005-5V7a5 5 0 00-5-5H7a5 5 0 00-5 5v1c0 .38.042.749.121 1.1l.003.014zM11 18l-6.364-2.893A7.909 7.909 0 01.17 9.54 7.024 7.024 0 010 8V7a7 7 0 017-7h4a7 7 0 017 7v1a7 7 0 01-7 7v3z" fill="#2E3A59"></path>
+  </symbol>
+
+
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" id="coolicon">
+    <path d="M10 20C4.48 19.994.006 15.52 0 10v-.2C.11 4.305 4.635-.072 10.13 0c5.497.074 9.904 4.569 9.868 10.065C19.962 15.562 15.497 20 10 20zM5.41 9.59L4 11l4 4 8-8-1.41-1.42L8 12.17 5.41 9.59z" fill="#2E3A59"></path>
+  </symbol>
+
+
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 22" id="like">
+    <path d="M20.84 3.61a5.5 5.5 0 00-7.78 0L12 4.67l-1.06-1.06a5.501 5.501 0 00-7.78 7.78l1.06 1.06L12 20.23l7.78-7.78 1.06-1.06a5.501 5.501 0 000-7.78v0z" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 22" id="save">
+    <path d="M1 11v8a2 2 0 002 2h12a2 2 0 002-2v-8m-4-6L9 1 5 5m4-4v13" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 20" id="share">
+    <path d="M4 20l-4-4 4-4v3h10v-4h2v5a1 1 0 01-1 1H4v3zM4 9H2V4a1 1 0 011-1h11V0l4 4-4 4V5H4v4z" fill="#2E3A59"></path>
+  </symbol>
+
+  
+</svg>

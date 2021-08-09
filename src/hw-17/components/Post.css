@@ -1,0 +1,94 @@
+.post{
+  border: 1px solid rgba(255, 255, 255, 0.103);
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  padding: 20px;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+}
+.avatar-container{
+  width: 30%;
+  max-width: 100px;
+  min-width: 50px;
+  margin-right: 3%;
+}
+.avatar{
+  border-radius: 100%;
+  border: 2px solid white;
+}
+img{
+  width: 100%;
+}
+.post-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.post-header{
+  display: flex;
+  justify-content: space-between;
+}
+.post-header-info{
+  flex-grow: 2;
+}
+.post-header-info > span:first-child{
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.post-header-info > span:not(:first-child){
+  color: rgb(167, 167, 167);
+}
+.post-header-info > span:not(:last-child){
+  margin-right: 2%;
+}
+.post-header-more{
+  flex-grow: 1;
+  display: flex;
+  justify-content: end;
+}
+.post-body{
+  margin: 10px 0;
+}
+.pots-content{
+  margin: 0;
+}
+.post-img-container{
+  margin: 10px 0;
+}
+.post-image{
+  border-radius: 5px;
+}
+
+.post-footer{
+  display: flex;
+  justify-content: space-between;
+}
+.post-action{
+  flex-grow: 1;
+  cursor: pointer;
+  display: flex;
+}
+.icon-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+.more-btn{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.icon >path{
+  fill: rgb(135, 135, 135);
+}
+.more-btn:hover > .icon > path{
+  fill: aqua;
+}
+.post-action:hover > span > .icon > path{
+  fill: aqua;
+}
+.post-action:hover > span > .icon-str > path{
+  stroke: aqua;
+}
