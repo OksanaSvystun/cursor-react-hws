@@ -4,7 +4,7 @@ import {Switch, Route, NavLink } from "react-router-dom";
 import "./App.css";
 import HW17 from "./hw-17/hw-17";
 import HW18 from "./hw-18/hw-18";
-import HW19 from "./hw-19/hw-19";
+import HW20 from "./hw-20/hw-20";
 
 function App() {
   return (
@@ -15,13 +15,13 @@ function App() {
       <nav>
         <div className="link-container">
           <NavLink to="/17-react-intro" className="btn btn-danger">
-            17
+            React Intro
           </NavLink>
           <NavLink to="/18-react-hooks" className="btn btn-danger">
-            18
+            React Hooks
           </NavLink>
-          <NavLink to="/19-react-router" className="btn btn-danger">
-            19
+          <NavLink to="/20-react-router" className="btn btn-danger">
+            React Router
           </NavLink>
         </div>
       </nav>
@@ -33,8 +33,8 @@ function App() {
         <Route path="/18-react-hooks">
           <HW18 />
         </Route>
-        <Route path="/19-react-router">
-          <HW19 />
+        <Route path="/20-react-router">
+          <HW20 />
         </Route>
       </Switch>
     </div>

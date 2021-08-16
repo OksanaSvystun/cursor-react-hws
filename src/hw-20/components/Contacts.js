@@ -3,7 +3,7 @@ import HW18 from "../../hw-18/hw-18";
 
 function Contacts() {
   return (
-    <div className='contacts-container-19'>
+    <div className='contacts-container-20'>
       <HW18 />
     </div>
   );

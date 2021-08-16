@@ -7,14 +7,14 @@ import Publications from "./components/Publications";
 import Contacts from "./components/Contacts";
 import Gallery from "./components/Gallery";
 
-import './hw-19.css'
+import './hw-20.css'
 
-function HW19() {
+function HW20() {
   const match = useRouteMatch();
 
   return (
-    <div className="wrapper-19">
-      <div className="nav-container-19">
+    <div className="wrapper-20">
+      <div className="nav-container-20">
         <Link to={`${match.url}`}>Home</Link>
         <Link to={`${match.url}/publication`}>Publication</Link>
         <Link to={`${match.url}/gallery`}>Gallery</Link>
@@ -39,4 +39,4 @@ function HW19() {
   );
 }
 
-export default HW19;
+export default HW20;
