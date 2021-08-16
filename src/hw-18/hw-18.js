@@ -7,7 +7,9 @@ import "./hw-18.css";
 function HW18() {
   return (
     <div className="wrapper-18">
-      <Contacts />
+      <div className='container-18'>
+        <Contacts />
+      </div>      
     </div>
   );
 }

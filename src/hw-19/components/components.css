@@ -1,0 +1,36 @@
+.main-page-wrapper{
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url('https://images.freeimages.com/images/large-previews/4ce/fireworks-1641684.jpg');
+  background-position: top;
+  background-size: cover;
+  height: 72vh;
+  width: 100%;
+  overflow-y: hidden;
+}
+.contacts-container-19{
+  width: 30%;
+  min-width: 400px;
+}
+.contacts-container-19 .container-18{
+  width: 100%;
+}
+
+
+
+.images-container{
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 50px;
+}
+.img-container{
+  width: 100%;
+}
+.img-container img{
+  height: 100%;
+}

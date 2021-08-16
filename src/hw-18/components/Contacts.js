@@ -31,7 +31,7 @@ function Contacts() {
   }, [search]);
 
   return (
-    <div className="container-18">
+    <div className="container-info">
       <h2 className="contacts-header">Contact List</h2>
       <input
         className="searchContact"
